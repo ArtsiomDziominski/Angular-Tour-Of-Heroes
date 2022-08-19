@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="header">
+    <div>
+      <h2>{{title}}</h2>
+      <button [routerLink]="'dashboard'">Dashboard</button>
+      <button [routerLink]="'heroes'">Hero</button>
+    </div>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</div>

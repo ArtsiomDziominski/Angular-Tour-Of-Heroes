@@ -1,0 +1,19 @@
+:host {
+
+  h2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  button {
+    margin: 5px 5px;
+    border: 0;
+    border-radius: 3px;
+    background-color: slateblue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}

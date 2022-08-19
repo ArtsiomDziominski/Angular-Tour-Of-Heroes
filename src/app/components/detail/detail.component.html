@@ -1,0 +1,7 @@
+<div *ngIf="hero">
+  <h2>{{hero.name.toUpperCase()}} Details</h2>
+  <p>ID: {{hero.id}}</p>
+  <p>Hero name: <input [(ngModel)]="hero.name" (keydown.enter)="saveHero(hero.name)" maxlength="20"></p>
+  <button (click)="saveHero(hero.name)">Save</button>
+  <button (click)="goBack()">Back</button>
+</div>
